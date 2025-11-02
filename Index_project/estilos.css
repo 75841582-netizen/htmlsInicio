@@ -59,6 +59,7 @@ nav a:hover{
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
+    align-items: stretch;
     margin: 40px 0;
 }
 
@@ -69,6 +70,9 @@ nav a:hover{
     width: 250px;
     text-align: center;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .tarjeta h2{
@@ -84,6 +88,8 @@ nav a:hover{
     cursor: pointer;
     color: #ff1493;
     font-weight: bold;
+    align-self: center;
+    margin-top: auto;
 }
 
 .tarjeta button:hover{
