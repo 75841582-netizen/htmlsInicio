@@ -17,7 +17,7 @@ header{
 
 .logo{
     display: flex;
-    color: #00b76f;
+    color: white;
     margin: 0;
     margin-left: 40px;
 }
@@ -29,7 +29,7 @@ a{
 
 nav a{
     font-weight: 600;
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 nav a:hover{
